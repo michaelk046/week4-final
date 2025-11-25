@@ -8,7 +8,7 @@ from sqlalchemy.orm import Session
 from database import engine, get_db
 
 # Create tables on startup
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Week 3 Final Project")
 
